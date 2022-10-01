@@ -27,6 +27,7 @@ function MovieForm() {
       .then((data) => {
         console.log(data);
       });
+      formData()
   }
 
   function handleChange(e) {
